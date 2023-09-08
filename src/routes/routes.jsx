@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import ProtectedRoute from './ProtectedRoute.jsx'
 import Profile from "../pages/Profile.jsx";
-import Home from "../pages/Home.jsx";
+import Landing from "../pages/Landing.jsx";
 import Layout from "../pages/Layout.jsx";
 
 
@@ -12,7 +12,7 @@ export const routes = createBrowserRouter([
         children: [
             {
                 path: "",
-                element: <Home />
+                element: <Landing/>
             },
             {
                 path: "app",
